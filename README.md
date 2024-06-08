@@ -25,8 +25,8 @@ This project implements a user authentication service using JWT in Node.js.
 - **Request Body**:
     ```json
     {
-        "name": "John Doe",
-        "email": "john@example.com",
+        "name": "Athul Krishna",
+        "email": "athulkrishna@gmail.com",
         "password": "password123"
     }
     ```
@@ -38,7 +38,7 @@ This project implements a user authentication service using JWT in Node.js.
 - **Request Body**:
     ```json
     {
-        "email": "john@example.com",
+        "email": "athulkrishna@gmail.com",
         "password": "password123"
     }
     ```
@@ -63,3 +63,8 @@ The complete source code is available in this repository.
 ## Swagger Documentation
 
 Open your web browser and navigate to http://localhost:5000/api-docs
+
+## Docker Run
+
+docker build -t auth .
+docker run -p 5000:5000 auth

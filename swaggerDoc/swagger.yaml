@@ -29,8 +29,8 @@ components:
           description: The password of the user
       example:
         id: 66616a741b018ec6471d17d4
-        name: User
-        email: user@example.com
+        name: Athul Krishna
+        email: athulkrishna@gmail.com
         password: password123
 securitySchemes:
   bearerAuth:
@@ -84,7 +84,7 @@ paths:
                   type: string
                   description: The password of the user
               example:
-                email: user@example.com
+                email: athulkrishna@gmail.com
                 password: password123
       responses:
         '200':
