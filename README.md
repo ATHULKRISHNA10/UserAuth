@@ -66,5 +66,5 @@ Open your web browser and navigate to http://localhost:5000/api-docs
 
 ## Docker Run
 
-docker build -t auth .
-docker run -p 5000:5000 auth
+- docker build -t auth .
+- docker run -p 5000:5000 auth
